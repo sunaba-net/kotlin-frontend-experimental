@@ -22,8 +22,10 @@ kotlin {
         browser {
             runTask {
                 archiveFileName = "app.js"
-                println(configDirectory)
-                println(configFile)
+            }
+            webpackTask {
+                sourceMaps = false
+                archiveFileName = "app.js"
             }
         }
     }
