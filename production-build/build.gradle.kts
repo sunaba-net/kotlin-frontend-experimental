@@ -8,7 +8,6 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib-js"))
-    implementation("org.jetbrains.kotlinx:kotlinx-html-js:0.6.12")
 }
 
 
@@ -25,8 +24,6 @@ kotlin {
             }
         }
     }
-    sourceSets["main"].dependencies {
-        implementation(npm("vue"))
-        implementation(npm("google-protobuf"))
-    }
+//    sourceSets["main"].dependencies {
+//    }
 }

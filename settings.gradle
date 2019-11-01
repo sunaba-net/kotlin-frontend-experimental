@@ -1,4 +1,5 @@
 rootProject.name = 'kotlin-frontend-experimental'
 include 'hello'
 include 'hello-vue'
+include 'production-build'
 
